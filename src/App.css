@@ -96,6 +96,7 @@ html {
   padding: 0.8rem 1.5rem;
   background: white;
   border: 0.1rem solid white;
+  color: #551a8b;
 }
 
 .btn--product:hover {
