@@ -5,7 +5,7 @@ function Error() {
   return (
     <section className="section">
       <h1 className="section__title">Page Not Found</h1>
-      <Link className="btn btn--error">go back home</Link>
+      <Link to="/" className="btn btn--error">go back home</Link>
     </section>
   );
 }
