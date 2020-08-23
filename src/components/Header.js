@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import { UserContext } from "./../context/user";
-import { CartContext } from "../context/cart";
+
 
 function Header() {
   const { user, logout } = useContext(UserContext);
-  const { clearCart } = useContext(CartContext);
+  
   return (
     <header className="header">
       <img src={logo} alt="store logo" className="header__logo" />

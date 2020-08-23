@@ -1,8 +1,6 @@
-import React, { useContext, useState } from "react";
+import React, { useContext} from "react";
 import { CartContext } from "./../context/cart";
-import { UserContext } from "./../context/user";
-import { useHistory } from "react-router-dom";
-import EmptyCart from "./../components/EmptyCart";
+
 
 function Checkout() {
   const { total } = useContext(CartContext);
